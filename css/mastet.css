@@ -1,0 +1,92 @@
+body{background-color: bisque;
+    font-family: 'Noto Serif Telugu', serif;}
+
+.img{
+    width: 349px;
+    border-start-end-radius: 9px;
+    border-start-start-radius: 9px;
+    height: 237px;
+}
+
+.back div{
+    margin-left: 16px;
+}
+.title h3{
+    color: rgba(0, 0, 0, 0.206);
+    margin-left: 20px;
+}
+
+
+.title{
+    background-color: white;
+    width: 351px;
+    margin-left: 15px;
+    margin-top: -23px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    height: 372px;
+}
+
+.h1{
+    margin-left: 20px;
+    width: 300px;
+}
+
+.dis{ color: rgba(0, 0, 0, 0.206);
+margin-left: 20px;
+width: 268px;
+}
+
+.price{color: green;
+margin-left: 20px;
+display: flex;}
+
+.price p{
+    margin-top: 33px;
+    margin-left: 35px;
+    color: rgba(0, 0, 0, 0.206);
+    text-decoration: line-through;
+    font-size: 20px;
+}
+
+.botton button{
+    font-size: 16px;
+    border-radius: 9px;
+    background-color: rgb(100, 152, 100);
+    color: white;
+    height: 37px;
+    width: 204px;
+    margin-left: 46px;
+    border: 1px transparent solid;
+    cursor: pointer;
+}
+
+@media(max-width:810px){
+.img2{display: none;}
+}
+
+@media(min-width:820px){
+.img2{width: 200px;
+display: flex;
+margin-top: -371px;
+width: 261px;
+margin-left: 70px;
+height: 370px;
+border-top-left-radius: 9px;
+border-bottom-left-radius: 9px;
+}
+.img{display: none;}
+
+.mob{    margin-left: 316px;
+    margin-top: 171px;
+}
+
+.img{display: none;}
+
+.mob{    margin-left: 316px;
+    margin-top: 171px;
+}
+
+.title{border-bottom-left-radius: 0px;
+ border-top-right-radius: 9px}
+}
